@@ -565,7 +565,7 @@ int main( int argc, char* argv[] )
 
     if ( argv[1][0] != '/' )
     {
-        fprintf(stderr, "Absolute path required to libreoffice install\n");
+        fprintf(stderr, "Absolute path required to SnipeOffice install\n");
         return 1;
     }
 

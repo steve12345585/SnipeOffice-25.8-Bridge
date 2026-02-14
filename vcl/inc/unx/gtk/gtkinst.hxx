@@ -217,7 +217,7 @@ public:
     void dragDataGet(GtkSelectionData *data, guint info);
 #endif
 
-    // For LibreOffice internal D&D we provide the Transferable without Gtk
+    // For SnipeOffice internal D&D we provide the Transferable without Gtk
     // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
     static GtkInstDragSource* g_ActiveDragSource;
     css::uno::Reference<css::datatransfer::XTransferable> const & GetTransferrable() const { return m_xTrans; }

@@ -271,7 +271,7 @@ gb_Module_CLEANTARGETSTACK := $(call gb_Module_get_clean_target,$(1)) $(gb_Modul
 gb_Module_CURRENTMODULE_SYMBOLS_ENABLED := $(call gb_Module__symbols_enabled,$(1))
 gb_Module_CURRENTMODULE_NAME := $(1)
 $(call gb_Helper_make_userfriendly_targets,$(1),Module)
-$(if $(filter-out libreoffice instsetoo_native android ios,$(1)),\
+$(if $(filter-out SnipeOffice instsetoo_native android ios,$(1)),\
     $(call gb_Postprocess_register_target,AllModulesButInstsetNative,Module,$(1)))
 
 $(call gb_Postprocess_get_target,AllModuleTests) : $(call gb_Module_get_check_target,$(1))

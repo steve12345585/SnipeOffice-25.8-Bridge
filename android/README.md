@@ -268,7 +268,7 @@ Assuming that you're already in the LOAndroid3 directory in your shell.
 ### Debugging the Missing Services
 
 Android library only include essential services that are compiled for
-LibreOffice in order to reduce the size of the apk. When developing,
+SnipeOffice in order to reduce the size of the apk. When developing,
 some services might become useful and we should add those services
 to the combined library.
 

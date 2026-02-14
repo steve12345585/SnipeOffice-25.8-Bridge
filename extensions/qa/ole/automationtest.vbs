@@ -82,7 +82,7 @@ WScript.Echo "Running Automation client tests"
 On Error Resume Next
 
 ' FIXME: How can we ever make this work specifically with the
-' LibreOffice in instdir, when WScript.CreateObject() wants the
+' SnipeOffice in instdir, when WScript.CreateObject() wants the
 ' symbolic name that it then looks up from the Registry to find the
 ' CLSID of the class?
 

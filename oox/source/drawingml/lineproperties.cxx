@@ -468,7 +468,7 @@ void LineProperties::pushToPropMap( ShapePropertyMap& rPropMap,
         if (eLineCap == LineCap_ROUND || (eLineCap == LineCap_SQUARE && maCustomDash.empty()))
         {
             // Cannot use -100 because that results in 0 length in some cases and
-            // LibreOffice interprets 0 length as 100%.
+            // SnipeOffice interprets 0 length as 100%.
             if (aLineDash.DotLen >= 100 || aLineDash.DashLen >= 100)
                 aLineDash.Distance += 99;
             if (aLineDash.DotLen >= 100)

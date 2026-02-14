@@ -86,7 +86,7 @@ if ($destdir && "$ENV{DESTDIR}" ne "/" && -d "$ENV{DESTDIR}") {
     system ("rm -rf \"$ENV{DESTDIR}\"") && die "Failed to clean up destdir: $!";
 }
 
-print "Running LibreOffice installer\n";
+print "Running SnipeOffice installer\n";
 
 system ("cd $ENV{SRC_ROOT}/instsetoo_native/util ; " .
         "perl " .

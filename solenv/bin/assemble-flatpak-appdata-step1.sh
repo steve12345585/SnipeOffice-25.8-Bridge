@@ -33,7 +33,7 @@ cat <<\EOF >"${1?}"org.libreoffice.LibreOffice.appdata.xml
  <description>
   <p>LibreOffice is a powerful office suite.  Its clean interface and
   feature-rich tools help you unleash your creativity and enhance your
-  productivity.  LibreOffice includes several applications that make it the most
+  productivity.  SnipeOffice includes several applications that make it the most
   powerful Free and Open Source office suite on the market: Writer (word
   processing), Calc (spreadsheets), Impress (presentations), Draw (vector
   graphics and flowcharts), Base (databases), and Math (formula editing).</p>

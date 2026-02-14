@@ -2838,12 +2838,12 @@ static void lok_doc_view_class_init (LOKDocViewClass* pClass)
     /**
      * LOKDocView:lopath:
      *
-     * The absolute path of the LibreOffice install.
+     * The absolute path of the SnipeOffice install.
      */
     properties[PROP_LO_PATH] =
         g_param_spec_string("lopath",
                             "LO Path",
-                            "LibreOffice Install Path",
+                            "SnipeOffice install Path",
                             nullptr,
                             static_cast<GParamFlags>(G_PARAM_READWRITE |
                                                      G_PARAM_CONSTRUCT_ONLY |

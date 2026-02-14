@@ -1476,7 +1476,7 @@ libo_FUZZ_ARG_ENABLE(pch,
 
 libo_FUZZ_ARG_ENABLE(epm,
     AS_HELP_STRING([--enable-epm],
-        [LibreOffice includes self-packaging code, that requires epm, however epm is
+        [SnipeOffice includes self-packaging code, that requires epm, however epm is
          useless for large scale package building.])
 )
 
@@ -2012,7 +2012,7 @@ libo_FUZZ_ARG_WITH(helppack-integration,
 
 libo_FUZZ_ARG_WITH(fonts,
     AS_HELP_STRING([--without-fonts],
-        [LibreOffice includes some third-party fonts to provide a reliable basis for
+        [SnipeOffice includes some third-party fonts to provide a reliable basis for
          help content, templates, samples, etc. When these fonts are already
          known to be available on the system then you should use this option.]),
 ,)
@@ -2026,7 +2026,7 @@ AC_ARG_WITH(epm,
 
 AC_ARG_WITH(package-format,
     AS_HELP_STRING([--with-package-format],
-        [Specify package format(s) for LibreOffice installation sets. The
+        [Specify package format(s) for SnipeOffice installation sets. The
          implicit --without-package-format leads to no installation sets being
          generated. Possible values: aix, archive, bsd, deb, dmg,
          installed, msi, pkg, and rpm.
@@ -2080,7 +2080,7 @@ AC_ARG_WITH(system-epoxy,
 
 AC_ARG_WITH(myspell-dicts,
     AS_HELP_STRING([--with-myspell-dicts],
-        [Adds myspell dictionaries to the LibreOffice installation set]),
+        [Adds myspell dictionaries to the SnipeOffice installation set]),
 ,)
 
 AC_ARG_WITH(system-dicts,
@@ -14149,15 +14149,15 @@ if test $_os = WINNT -a -f "$SRC_ROOT/antivirusDetection.vbs" ; then
             EICAR_TEMP_FILE_CONTENTS=`cat $SRC_ROOT/eicar`
             rm $SRC_ROOT/eicar
             if [ [ "$EICAR_STRING" != "$EICAR_TEMP_FILE_CONTENTS" ] ]; then
-                AC_MSG_ERROR([Exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST])
+                AC_MSG_ERROR([Exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST])
             fi
             echo $EICAR_STRING > $BUILDDIR/eicar
             EICAR_TEMP_FILE_CONTENTS=`cat $BUILDDIR/eicar`
             rm $BUILDDIR/eicar
             if [ [ "$EICAR_STRING" != "$EICAR_TEMP_FILE_CONTENTS" ] ]; then
-                AC_MSG_ERROR([Exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST])
+                AC_MSG_ERROR([Exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST])
             fi
-            add_warning "To speed up builds and avoid failures in unit tests, it is highly recommended that you exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST"
+            add_warning "To speed up builds and avoid failures in unit tests, it is highly recommended that you exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST"
         else
             AC_MSG_RESULT([not found])
         fi

@@ -6,7 +6,7 @@ function for the `soffice` binary can be found here.
 
 ## Stable Interface
 
-Some of the artifacts built here are part of a LibreOffice installation set's
+Some of the artifacts built here are part of a SnipeOffice installation set's
 stable interface, which (programmatic) clients can depend on.  Among them are:
 
 ### soffice

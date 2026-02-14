@@ -27,7 +27,7 @@
 #endif
 
 #define COLUMN_HANDLER_DESCRIPTIVE_NAME    L"LibreOffice Column Handler"
-#define INFOTIP_HANDLER_DESCRIPTIVE_NAME   L"LibreOffice Infotip Handler"
+#define INFOTIP_HANDLER_DESCRIPTIVE_NAME   L"SnipeOffice infotip Handler"
 #define PROPSHEET_HANDLER_DESCRIPTIVE_NAME L"LibreOffice Property Sheet Handler"
 #define THUMBVIEWER_HANDLER_DESCRIPTIVE_NAME L"LibreOffice Thumbnail Viewer"
 

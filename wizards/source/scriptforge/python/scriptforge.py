@@ -155,7 +155,7 @@ class ScriptForge(object, metaclass = _Singleton):
     def ConnectToLOProcess(cls, hostname = '', port = 0):
         """
             Called by the ScriptForge class constructor to establish the connection with
-            the requested LibreOffice instance
+            the requested SnipeOffice instance
             The default arguments are for the usual interactive mode
 
             :param hostname: probably 'localhost' or ''
@@ -238,7 +238,7 @@ class ScriptForge(object, metaclass = _Singleton):
                 xscript = cls.scriptprovider.getScript(uri)
             except Exception:
                 raise RuntimeError(
-                    'The script \'{0}\' could not be located in your LibreOffice installation'.format(script))
+                    'The script \'{0}\' could not be located in your SnipeOffice installation'.format(script))
         else:  # Should not happen
             return None
 
@@ -1003,7 +1003,7 @@ class SFScriptForge:
                 #   Choice is a minimalist call to a Basic routine: no arguments, a few lines of code
                 SFScriptForge.SF_Basic.GetGuiType()
             else:
-                # The APSO extension could not be located in your LibreOffice installation
+                # The APSO extension could not be located in your SnipeOffice installation
                 cls._RaiseFatal('SF_Exception.PythonShell', 'variables=None', 'PYTHONSHELLERROR')
 
         @classmethod

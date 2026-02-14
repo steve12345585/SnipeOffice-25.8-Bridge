@@ -1003,7 +1003,7 @@ public:
      * Override the SAL_LOG environment variable
      *
      * For the syntax of the string see the documentation for "Basic
-     * logging functionality" in LibreOffice internal API
+     * logging functionality" in SnipeOffice internal API
      * documentation (include/sal/log.hxx). If the logging selector
      * has been set by this function to a non-empty value, that is used
      * instead of the environment variable SAL_LOG.

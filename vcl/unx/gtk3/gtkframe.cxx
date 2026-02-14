@@ -4372,7 +4372,7 @@ public:
 };
 #endif
 
-// For LibreOffice internal D&D we provide the Transferable without Gtk
+// For SnipeOffice internal D&D we provide the Transferable without Gtk
 // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
 GtkInstDragSource* GtkInstDragSource::g_ActiveDragSource;
 
@@ -4414,7 +4414,7 @@ gboolean GtkInstDropTarget::signalDragDrop(GtkWidget* pWidget, GdkDragContext* c
         aEvent.DropAction |= css::datatransfer::dnd::DNDConstants::ACTION_DEFAULT;
     aEvent.SourceActions = GdkToVcl(gdk_drag_context_get_actions(context));
     css::uno::Reference<css::datatransfer::XTransferable> xTransferable;
-    // For LibreOffice internal D&D we provide the Transferable without Gtk
+    // For SnipeOffice internal D&D we provide the Transferable without Gtk
     // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
     if (GtkInstDragSource::g_ActiveDragSource)
         xTransferable = GtkInstDragSource::g_ActiveDragSource->GetTransferrable();
@@ -4542,7 +4542,7 @@ gboolean GtkInstDropTarget::signalDragMotion(GtkWidget *pWidget, GdkDragContext 
     if (!m_bInDrag)
     {
         css::uno::Reference<css::datatransfer::XTransferable> xTransferable;
-        // For LibreOffice internal D&D we provide the Transferable without Gtk
+        // For SnipeOffice internal D&D we provide the Transferable without Gtk
         // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
         if (GtkInstDragSource::g_ActiveDragSource)
             xTransferable = GtkInstDragSource::g_ActiveDragSource->GetTransferrable();
@@ -5305,7 +5305,7 @@ void GtkInstDragSource::set_datatransfer(const css::uno::Reference<css::datatran
 
 void GtkInstDragSource::setActiveDragSource()
 {
-   // For LibreOffice internal D&D we provide the Transferable without Gtk
+   // For SnipeOffice internal D&D we provide the Transferable without Gtk
    // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
    g_ActiveDragSource = this;
    g_DropSuccessSet = false;
