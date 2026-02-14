@@ -1,5 +1,5 @@
 #!/bin/bash
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 # ------------------------------------------------------------------
 #
 #    Copyright (C) 2016 Canonical Ltd.
