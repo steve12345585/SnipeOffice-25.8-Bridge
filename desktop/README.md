@@ -1,4 +1,4 @@
-# LibreOffice Binary
+# SnipeOffice Binary
 
 Code for the LibreOffice main binary (`soffice`) resides here. The `soffice_main`
 function for the `soffice` binary can be found here.

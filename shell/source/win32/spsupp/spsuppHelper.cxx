@@ -141,7 +141,7 @@ DWORD LOStart(const wchar_t* sModeArg, const wchar_t* sFilePath)
         size_t nBufSize = wcslen(sMsgBuf) + 100;
         std::vector<wchar_t> sDisplayBuf(nBufSize);
         swprintf(sDisplayBuf.data(), nBufSize,
-                 L"Could not start LibreOffice. Error is 0x%08X:\n\n%s", dwError, sMsgBuf);
+                 L"Could not start SnipeOffice. Error is 0x%08X:\n\n%s", dwError, sMsgBuf);
         HeapFree(GetProcessHeap(), 0, sMsgBuf);
 
         // Report the error to user and return error

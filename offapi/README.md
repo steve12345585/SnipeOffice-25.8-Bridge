@@ -1,4 +1,4 @@
-# LibreOffice API IDL Files Except UDK API
+# SnipeOffice API IDL Files Except UDK API
 
 Contains all of the IDL files except those in `udkapi`.
 

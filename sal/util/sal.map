@@ -720,42 +720,42 @@ PRIVATE_1.1 {
         sal_detail_deinitialize;
 } PRIVATE_1.0;
 
-PRIVATE_1.2 { # LibreOffice 3.5
+PRIVATE_1.2 { # SnipeOffice 3.5
     global:
         sal_detail_log;
         sal_detail_logFormat;
 } PRIVATE_1.1;
 
-PRIVATE_1.3 { # LibreOffice 5.4
+PRIVATE_1.3 { # SnipeOffice 5.4
     global:
         sal_detail_log_report;
 } PRIVATE_1.2;
 
-PRIVATE_1.4 { # LibreOffice 6.0
+PRIVATE_1.4 { # SnipeOffice 6.0
     global:
         _ZN3sal13backtrace_getEj;
         _ZN3sal13backtrace_getEm;
         _ZN3sal19backtrace_to_stringEPNS_14BacktraceStateE;
 } PRIVATE_1.3;
 
-PRIVATE_1.5 { # LibreOffice 6.1
+PRIVATE_1.5 { # SnipeOffice 6.1
     global:
         rtl_alloc_preInit;
 } PRIVATE_1.4;
 
-PRIVATE_1.6 { # LibreOffice 6.4
+PRIVATE_1.6 { # SnipeOffice 6.4
     global:
         rtl_str_toInt64_WithLength;
         rtl_ustr_toInt64_WithLength;
         sal_detail_set_log_selector;
 } PRIVATE_1.5;
 
-PRIVATE_1.7 { # LibreOffice 7.1
+PRIVATE_1.7 { # SnipeOffice 7.1
     global:
         rtl_uString_newReplaceAllFromIndexUtf16LUtf16L;
 } PRIVATE_1.5;
 
-PRIVATE_textenc.1 { # LibreOffice 3.6
+PRIVATE_textenc.1 { # SnipeOffice 3.6
     global:
         _ZN3sal6detail7textenc20convertCharToUnicode*;
         _ZN3sal6detail7textenc20convertUnicodeToChar*;

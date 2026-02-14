@@ -242,7 +242,7 @@ if [ "$1" = 1 ]
 then
   # backing out existing entries to avoid duplicates
   sed '
-/^# LibreOffice/d
+/^# SnipeOffice/d
 /^application\/vnd\.oasis\.opendocument/d
 /^application\/vnd\.openofficeorg/d
 /^application\/vnd\.sun/d
@@ -258,7 +258,7 @@ then
 
   # now append our stuff to the temporary file
   cat >> /etc/mailcap.tmp$$ << END
-# LibreOffice
+# SnipeOffice
 application/vnd.oasis.opendocument.text; %unixfilename -view %s
 application/vnd.oasis.opendocument.text-flat-xml; %unixfilename -view %s
 application/vnd.oasis.opendocument.text-template; %unixfilename -view %s

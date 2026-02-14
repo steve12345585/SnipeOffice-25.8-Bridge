@@ -20,7 +20,7 @@ class tdf118208(UITestCase):
         # 1. Open the attached file.
         # 2. Press ctrl-H to show the search and replace dialog.
         # 3. Press the "Format..."  button.
-        #Libreoffice immediately crashed.
+        #SnipeOffice immediately crashed.
         self.ui_test.execute_dialog_through_command(".uno:OptionsTreeDialog")  #optionsdialog
         xDialog = self.xUITest.getTopFocusWindow()
 

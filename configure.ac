@@ -1758,7 +1758,7 @@ AC_ARG_ENABLE(ccache,
 libo_FUZZ_ARG_ENABLE(online-update,
     AS_HELP_STRING([--enable-online-update],
         [Enable the online update service that will check for new versions of
-         LibreOffice. By default, it is enabled on Windows and Mac, disabled on Linux.
+         SnipeOffice. By default, it is enabled on Windows and Mac, disabled on Linux.
          If the value is "mar", the experimental Mozilla-like update will be
          enabled instead of the traditional update mechanism.]),
 ,)
@@ -9527,7 +9527,7 @@ AC_MSG_CHECKING([which Python to use for Pyuno])
 case "$enable_python" in
 no|disable)
     if test -z $PYTHON_FOR_BUILD; then
-        # Python is required to build LibreOffice. In theory we could separate the build-time Python
+        # Python is required to build SnipeOffice. In theory we could separate the build-time Python
         # requirement from the choice whether to include Python stuff in the installer, but why
         # bother?
         if test "$cross_compiling" = yes; then

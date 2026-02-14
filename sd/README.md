@@ -1,4 +1,4 @@
-# LibreOffice Impress / Draw Application
+# SnipeOffice Impress / Draw Application
 
 The core directory for the impress/draw applications.
 

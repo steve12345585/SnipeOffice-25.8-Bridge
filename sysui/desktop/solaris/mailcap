@@ -36,7 +36,7 @@ sed '
 
 # now append our stuff to the temporary file
 cat << END
-# LibreOffice
+# SnipeOffice
 application/vnd.oasis.opendocument.text; %PREFIX -view %s
 application/vnd.oasis.opendocument.text-flat-xml; %PREFIX -view %s
 application/vnd.oasis.opendocument.text-template; %PREFIX -view %s

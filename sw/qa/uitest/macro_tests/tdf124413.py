@@ -13,7 +13,7 @@ class tdf124413(UITestCase):
     def test_copy_paste_overwriting_undo_redo_in_macro_editor_tdf124413(self):
 
         self.ui_test.create_doc_in_start_center("writer")
-        #Start LibreOffice. Go to Tools > Macros > Organize Macros > Basic
+        #Start SnipeOffice. Go to Tools > Macros > Organize Macros > Basic
         self.ui_test.execute_dialog_through_command(".uno:MacroDialog")
         xDialog = self.xUITest.getTopFocusWindow()
         #Open Editor

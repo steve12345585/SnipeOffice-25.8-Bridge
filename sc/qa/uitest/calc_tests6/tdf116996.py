@@ -20,10 +20,10 @@ class tdf116996(UITestCase):
         xDialogOpt = self.xUITest.getTopFocusWindow()
 
         xPages = xDialogOpt.getChild("pages")
-        xLOEntry = xPages.getChild('0')                 # Libreoffice
+        xLOEntry = xPages.getChild('0')                 # SnipeOffice
         xLOEntry.executeAction("EXPAND", tuple())
         xAdvancedEntry = xLOEntry.getChild('10')
-        xAdvancedEntry.executeAction("SELECT", tuple())          #Libreoffice / Advanced
+        xAdvancedEntry.executeAction("SELECT", tuple())          #SnipeOffice / Advanced
         xexperimental = xDialogOpt.getChild("experimental")
         xexperimental.executeAction("CLICK", tuple())          #enable experimental features
 
@@ -40,10 +40,10 @@ class tdf116996(UITestCase):
         self.ui_test.execute_dialog_through_command(".uno:OptionsTreeDialog")  #optionsdialog
         xDialogOpt = self.xUITest.getTopFocusWindow()
         xPages = xDialogOpt.getChild("pages")
-        xLOEntry = xPages.getChild('0')                 # Libreoffice
+        xLOEntry = xPages.getChild('0')                 # SnipeOffice
         xLOEntry.executeAction("EXPAND", tuple())
         xAdvancedEntry = xLOEntry.getChild('10')
-        xAdvancedEntry.executeAction("SELECT", tuple())          #Libreoffice / Advanced
+        xAdvancedEntry.executeAction("SELECT", tuple())          #SnipeOffice / Advanced
         xexperimental = xDialogOpt.getChild("experimental")
 
         self.assertEqual(get_state_as_dict(xexperimental)["Selected"], "true")

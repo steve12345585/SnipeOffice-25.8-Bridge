@@ -100,7 +100,7 @@ if [ "$1" = "configure" ]
 then
   # backing out existing entries to avoid duplicates
   sed '
-/^# LibreOffice/d
+/^# SnipeOffice/d
 /^application\/vnd\.oasis\.opendocument/d
 /^application\/vnd\.openofficeorg/d
 /^application\/vnd\.sun/d
@@ -116,7 +116,7 @@ then
 
   # now append our stuff to the temporary file
   cat >> /etc/mailcap.tmp$$ << END
-# LibreOffice
+# SnipeOffice
 application/vnd.oasis.opendocument.text; %PREFIX -view %s
 application/vnd.oasis.opendocument.text-flat-xml; %PREFIX -view %s
 application/vnd.oasis.opendocument.text-template; %PREFIX -view %s

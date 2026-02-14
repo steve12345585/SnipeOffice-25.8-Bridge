@@ -504,7 +504,7 @@ bool ScDocShell::LoadXML( SfxMedium* pLoadMedium, const css::uno::Reference< css
         OUString sProductName(utl::ConfigManager::getProductName());
         if (m_aDocument.IsUserInteractionEnabled() && xDocProps->getGenerator().indexOf(sProductName) == -1)
         {
-            // Generator is not LibreOffice.  Ask if the user wants to perform
+            // Generator is not SnipeOffice.  Ask if the user wants to perform
             // full re-calculation.
             MessageWithCheck aQueryBox(GetActiveDialogParent(),
                     "modules/scalc/ui/recalcquerydialog.ui", "RecalcQueryDialog");

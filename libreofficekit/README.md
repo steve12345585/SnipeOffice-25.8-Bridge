@@ -1,4 +1,4 @@
-# LibreOfficeKit
+# SnipeOfficeKit
 
 LibreOfficeKit can be used for accessing LibreOffice functionality
 through C/C++, without any need to use UNO.
@@ -97,7 +97,7 @@ To debug with `gdb`:
 
 before `bin/run`, this will run gtktiledviewer in the debugger instead.
 
-## LibreOfficeKitGtk
+## SnipeOfficeKitGtk
 
 Currently consists of only a very basic GTK document viewer widget.
 

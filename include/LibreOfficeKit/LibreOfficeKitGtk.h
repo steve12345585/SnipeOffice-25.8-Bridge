@@ -116,7 +116,7 @@ gboolean                       lok_doc_view_open_document_finish   (LOKDocView* 
  *
  * Gets the document the viewer displays.
  *
- * Returns: The #LibreOfficeKitDocument instance the widget is currently showing
+ * Returns: The #SnipeOfficeKitDocument instance the widget is currently showing
  */
 LibreOfficeKitDocument*        lok_doc_view_get_document           (LOKDocView* pDocView);
 

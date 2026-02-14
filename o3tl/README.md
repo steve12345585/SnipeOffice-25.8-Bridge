@@ -1,4 +1,4 @@
-# LibreOffice Template Library
+# SnipeOffice Template Library
 
 Very basic template functionality, a bit like boost or STL, but specific to LibreOffice.
 

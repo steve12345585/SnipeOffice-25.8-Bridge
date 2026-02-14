@@ -2976,7 +2976,7 @@ void SdrObjCustomShape::AdjustToMaxRect(const tools::Rectangle& rMaxRect, bool b
 
 void SdrObjCustomShape::TRSetBaseGeometry(const basegfx::B2DHomMatrix& rMatrix, const basegfx::B2DPolyPolygon& /*rPolyPolygon*/)
 {
-    // The shape might have already flipping in its enhanced geometry. LibreOffice applies
+    // The shape might have already flipping in its enhanced geometry. SnipeOffice applies
     // such after all transformations. We remove it, but remember it to apply them later.
     bool bIsMirroredX = IsMirroredX();
     bool bIsMirroredY = IsMirroredY();

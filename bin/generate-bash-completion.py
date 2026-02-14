@@ -71,8 +71,8 @@ class SetAppName(argparse.Action):
 # default names of lowrappers
 # use "" for name if you want to disable any wrapper
 APPS = {
-    'office': App("libreoffice", 'openoffice', ALLDOCS),  # libreoffice should contain all
-    'office_short': App("loffice", 'ooffice', ALLDOCS),  # libreoffice should contain all
+    'office': App("libreoffice", 'openoffice', ALLDOCS),  # SnipeOffice should contain all
+    'office_short': App("loffice", 'ooffice', ALLDOCS),  # SnipeOffice should contain all
     'master': App("", '', MASTERDOCS),
     'base': App("lobase", 'oobase', BASEDOCS),
     'calc': App("localc", 'oocalc', CALCDOCS),

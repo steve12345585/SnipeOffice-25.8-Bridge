@@ -39,7 +39,7 @@ Excel-Line Name                                      Value            ||        
 
 In the following cases a 1:1 mapping is not possible.
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in SnipeOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
 Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________
@@ -63,7 +63,7 @@ ________________________________________________________________________________
 No similar border available => choose one that is not used similar one and make the roundtrip via xlsx-file possible (create in LO, save as xlsx, open in LO and
 border is not changed)
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in SnipeOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
 Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________
@@ -74,7 +74,7 @@ ________________________________________________________________________________
 
 In the following cases the mapping is o.k. and should not be changed.
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in SnipeOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
 Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________

@@ -1,8 +1,8 @@
-# LibreOffice for Android
+# SnipeOffice for Android
 
 ## Bootstrap
 
-Contains common code for all projects on Android to bootstrap LibreOffice. In
+Contains common code for all projects on Android to bootstrap SnipeOffice. In
 addition it is a home to `LibreOfficeKit` (LOK - see `libreofficekit/README.md`) JNI
 classes.
 

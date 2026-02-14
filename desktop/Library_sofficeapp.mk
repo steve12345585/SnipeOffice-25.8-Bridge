@@ -127,7 +127,7 @@ $(eval $(call gb_Library_add_exception_objects,sofficeapp,\
     desktop/source/migration/migration \
 ))
 
-# LibreOfficeKit bits
+# SnipeOfficeKit bits
 ifneq ($(filter $(OS),ANDROID iOS MACOSX WNT),)
 $(eval $(call gb_Library_add_exception_objects,sofficeapp,\
 	desktop/source/lib/init \

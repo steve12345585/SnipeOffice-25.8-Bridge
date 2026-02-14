@@ -94,5 +94,5 @@ c15                     http://schemas.microsoft.com/office/drawing/2012/chart
 # xls14Lst for features introduced by excel 2010
 xls14Lst               http://schemas.microsoft.com/office/spreadsheetml/2009/9/main
 
-# LibreOffice's own extensions
+# SnipeOffice's own extensions
 loext                  http://schemas.libreoffice.org/

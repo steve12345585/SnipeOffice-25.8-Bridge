@@ -18,7 +18,7 @@
 
 set -e
 
-## libreoffice-*.desktop -> org.libreoffice.LibreOffice.*.desktop:
+## SnipeOffice-*.desktop -> org.libreoffice.LibreOffice.*.desktop:
 for i in "${1?}"libreoffice-*.desktop
 do
  sed -e 's/^Icon=libreoffice-/Icon=org.libreoffice.LibreOffice./' "$i" \

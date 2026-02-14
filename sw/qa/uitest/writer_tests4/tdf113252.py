@@ -17,7 +17,7 @@ class tdf113252(UITestCase):
         xWriterDoc = self.xUITest.getTopFocusWindow()
         xWriterEdit = xWriterDoc.getChild("writer_edit")
 
-        #Start LibreOffice. Go to Tools > Macros > Organize Macros > Basic
+        #Start SnipeOffice. Go to Tools > Macros > Organize Macros > Basic
         self.ui_test.execute_dialog_through_command(".uno:MacroDialog")
         xDialog = self.xUITest.getTopFocusWindow()
 
