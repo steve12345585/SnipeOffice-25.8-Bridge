@@ -1,7 +1,7 @@
 #!/usr/bin/gawk -f
 # -*- tab-width: 4; indent-tabs-mode: t -*-
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -50,7 +50,8 @@ BEGIN {
         # end of filenames, in which case the translation unit will depend on a
         # non-existing header, resulting in constant rebuild of all files,
         # prevent that.
-        sub(//, "")
+        sub(/
+/, "")
 
         gsub(/\\/, "/")
         gsub(/ /, "\\ ")
