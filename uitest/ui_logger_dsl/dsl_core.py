@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# This file is part of the LibreOffice UI_logger project.
+# This file is part of the SnipeOffice UI_logger project.
 #
 # This file contain the implementation of the Compiler
 # for the new logger grammar
