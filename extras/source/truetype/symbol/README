@@ -32,4 +32,4 @@ Update opens___.ttf on TDF server:
 scp opens___.ttf libreoffice@dev-www.libreoffice.org:/srv/www/dev-www.libreoffice.org/extern/$(sha256sum opens___.ttf | awk '{ print $1 }')-opens___.ttf
 
 Update sha256sums in source files like in this example commit:
-https://gerrit.libreoffice.org/#/c/75577/
+https://snipeoffice.org/gerrit/#/c/75577/
