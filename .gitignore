@@ -183,3 +183,10 @@ LibreOffice.VC.VC.opendb
 /a.wasm
 /a.out.js
 /a.out.wasm
+
+# Scripts and output files for finding libreoffice in comments
+libreoffice_occurrences.txt
+libreoffice_in_comments.txt
+find_libreoffice_in_comments.py
+find_comments_simple.py
+test_comment_detection.py

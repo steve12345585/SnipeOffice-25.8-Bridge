@@ -115,7 +115,7 @@ checkForUpdates(
     // XPath implementation
     uno::Reference< xml::xpath::XXPathAPI > xXPath = xml::xpath::XPathAPI::create(rxContext);
 
-    xXPath->registerNS( "inst", "http://update.libreoffice.org/description" );
+    xXPath->registerNS( "inst", "http://snipeoffice.org/update/description" );
 
     if( rxInteractionHandler.is() )
         rUpdateInfoProvider->setInteractionHandler(rxInteractionHandler);
