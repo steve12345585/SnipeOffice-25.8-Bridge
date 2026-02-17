@@ -225,12 +225,12 @@ $(WORKDIR)/download: $(BUILDDIR)/config_$(gb_Side).mk $(SRCDIR)/download.lst $(S
 		$(call fetch_Optional,XSLTML,XSLTML_TARBALL) \
 		$(call fetch_Optional,ZLIB,ZLIB_TARBALL) \
 		$(call fetch_Optional,ZMF,ZMF_TARBALL) \
-	,$(call fetch_Download_item,https://dev-www.libreoffice.org/src,$(item)))
+	,$(call fetch_Download_item,http://dev-www.snipeoffice.org/src,$(item)))
 	$(foreach item, \
 		$(call fetch_Optional,OPENSYMBOL,OPENSYMBOL_TTF) \
 		$(call fetch_Optional,ODFVALIDATOR,ODFVALIDATOR_JAR) \
 		$(call fetch_Optional,OFFICEOTRON,OFFICEOTRON_JAR) \
-	,$(call fetch_Download_item,https://dev-www.libreoffice.org/extern,$(item)))
+	,$(call fetch_Download_item,http://dev-www.snipeoffice.org/extern,$(item)))
 	@mkdir -p $(dir $@) && touch $@
 	@mkdir -p $(dir $@)/Executable
 

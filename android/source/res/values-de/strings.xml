@@ -7,7 +7,7 @@
     <string name="app_about_name"><b>LibreOffice Viewer \'Beta\'</b></string>
     <string name="app_version">Version: %1$s\nBuild ID: %2$s</string>
     <string name="app_description">LibreOffice Viewer ist ein Dokumentenbetrachter, der auf LibreOffice basiert.</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.snipeoffice.org</string>
     <string name="app_vendor">Dieses Release wurde bereitgestellt durch $VENDOR.</string>
     <string name="readonly_file">Diese Datei ist schreibgeschützt.</string>
 

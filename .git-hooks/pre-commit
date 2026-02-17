@@ -224,7 +224,7 @@ sub check_style($)
                 print("To get a suitable binary, please do:\n\n");
                 print("mkdir -p $opt_lo\n");
                 print("cd $opt_lo\n");
-                print("$download https://dev-www.libreoffice.org/bin/clang-format-$version-$platform\n");
+                print("$download http://dev-www.snipeoffice.org/bin/clang-format-$version-$platform\n");
                 print("cp clang-format-$version-$platform clang-format\n");
                 print("chmod +x clang-format\n\n");
 
